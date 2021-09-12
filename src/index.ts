@@ -1,1 +1,2 @@
-import * as rxjs from 'rxjs';
+import sub from './basic';
+sub();
