@@ -1,0 +1,29 @@
+{
+  "name": "rxjs-fundamentals",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/linhpvt/rxjs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/linhpvt/rxjs/issues"
+  },
+  "homepage": "https://github.com/linhpvt/rxjs#readme",
+  "dependencies": {
+    "rxjs": "^7.3.0",
+    "ts-loader": "^9.2.5",
+    "typescript": "^4.4.3",
+    "webpack": "^5.52.1",
+    "webpack-cli": "^4.8.0",
+    "webpack-dev-server": "^4.2.0"
+  }
+}
