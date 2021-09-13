@@ -1,2 +1,2 @@
-import sub from './hot';
+import sub from './of';
 sub();
