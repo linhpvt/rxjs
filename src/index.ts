@@ -1,2 +1,2 @@
-import sub from './combine.latest';
+import sub from './functions/combine.latest';
 sub();
