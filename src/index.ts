@@ -1,2 +1,2 @@
-import sub from './fork.join';
+import sub from './combine.latest';
 sub();
