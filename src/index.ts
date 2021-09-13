@@ -1,2 +1,2 @@
-import sub from './from.event';
+import sub from './interval';
 sub();
