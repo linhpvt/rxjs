@@ -1,2 +1,2 @@
-import sub from './cold';
+import sub from './hot';
 sub();
