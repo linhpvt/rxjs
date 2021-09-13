@@ -1,2 +1,2 @@
-import sub from './interval';
+import sub from './fork.join';
 sub();
