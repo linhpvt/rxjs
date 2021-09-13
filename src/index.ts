@@ -1,2 +1,2 @@
-import sub from './teardown';
+import sub from './cold';
 sub();
