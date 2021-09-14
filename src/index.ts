@@ -1,2 +1,2 @@
-import sub from './functions/combine.latest';
+import sub from './operators/filter';
 sub();
