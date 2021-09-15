@@ -1,2 +1,2 @@
-import sub from './operators/catch.error';
+import sub from './subject/basic';
 sub();

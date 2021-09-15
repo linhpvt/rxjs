@@ -20,10 +20,32 @@
         background: white;
         margin-bottom: 5px;
       }
+      fieldset div {
+        padding: 5px;
+        margin: 10px;
+      }
+      fieldset button {
+        margin-right: 5px;
+      }
     </style>
   </head>
   <body>
     <h1>Welcom to RxJS Fundamentals</h1>
+    <fieldset>
+      <legend>Behavior Subject</legend>
+      <div class="header">You are logged in? <span id="status"></span></div>
+      <div class="button">
+        <button id="login">Login</button><button id="logout">Logout</button>
+        <div>
+          <button id="printstate">Print current state</button>
+        </div>
+      </div>
+    </fieldset>
+
+    <input type="text" id="input" />
+    <input type="button" value="Emit" id="emit" />
+    <br />
+    <input type="button" value="Subscribe" id="subscribe" />
     <hr />
     <input
       type="range"
@@ -33,6 +55,9 @@
       class="slider"
       id="slider"
     />
+    <hr />
+    <input type="text" id="search" />
+    <input type="button" id="btnSearch" value="Search" />
     <hr />
     <button id="btnclick">Click me!</button>
     <hr />
