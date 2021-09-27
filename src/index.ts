@@ -1,2 +1,2 @@
-import sub from './subject/basic';
+import sub from './subject/behavior.subject';
 sub();
